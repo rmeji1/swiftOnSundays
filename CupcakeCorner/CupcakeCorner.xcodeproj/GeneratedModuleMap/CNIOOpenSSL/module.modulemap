@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/robert/Dropbox/Swift on Sundays/CupcakeCorner/.build/checkouts/swift-nio-ssl.git--3460030606378700040/Sources/CNIOOpenSSL/include"
+    export *
+}

@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/robert/Dropbox/Swift on Sundays/CupcakeCorner/.build/checkouts/crypto.git-4351440627662974946/Sources/CCryptoOpenSSL/include"
+    export *
+}
