@@ -1,2 +1,3 @@
-#Swift On Sundays: Server Side Swift
+#SwiftOnSundays: 
+Server Side Swift
 
