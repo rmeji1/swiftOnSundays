@@ -1,0 +1,75 @@
+{
+    "screens": [
+		{
+			"id" : "home",
+			"title" : "Home",
+			"type" : "table",
+			"rows" : [
+				{
+					"title": "First row",
+					"actionType" : "alert",
+					"action" : {
+						"title": "This is the first row",
+						"message": "Oh yes it is"
+					}
+				},
+				{
+					"title": "Show an awesome site",
+					"actionType": "showWebSite",
+					"action": {
+						"url": "https://www.hackingwithswift.com"
+					}
+				},
+				{
+					"title" : "Third row"
+				},
+				{
+					"title" : "Fourth Row",
+					"actionType": "showSecondScreen",
+					"action": {
+						"id" : "second"
+					}
+				},
+				{
+					"title": "Share Something",
+					"actionType": "share",
+					"action": {
+						"text" : "Hello, World"
+					}
+				},
+				{
+					"title" : "Play moive",
+					"actionType": "playMovie",
+					"action":{
+						"url":""
+					}
+				}
+			]
+		},
+		{
+			"id" : "second",
+			"title" : "Second Screen",
+			"type" : "table",
+			"rows" : [
+				{
+					"title": "Second Screen First row",
+					"actionType" : "alert",
+					"action" : {
+						"title": "This is the first row",
+						"message": "Oh yes it is"
+					}
+				},
+				{
+					"title": "Show an awesome site",
+					"actionType": "showWebSite",
+					"action": {
+						"url": "https://www.hackingwithswift.com"
+					}
+				},
+				{
+					"title" : "Third row"
+				}
+			]
+		}	
+	]
+}
